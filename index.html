@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>User List</title>
+</head>
+
+<body>
+
+    <h1>User List Practise</h1>
+    <section id="formSection">
+        <form action="" id="createForm">
+            <h2>Create user</h2>
+            <div>
+                <div class="inputContainer">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="inputContainer">
+                    <label for="lastname">Lastname:</label>
+                    <input type="text" name="lastname" id="lastname">
+                </div>
+                <div class="inputContainer">
+                    <label for="age">Age:</label>
+                    <input type="text" name="age" id="age">
+                </div>
+                <div class="inputContainer">
+                    <label for="country">Country:</label>
+                    <input type="text" name="country" id="country">
+                </div>
+            </div>
+
+            <input type="submit" value="Create">
+        </form>
+
+        <form action="" id="deleteForm">
+            <h2>Delete user</h2>
+            <div class="inputContainer">
+                <label for="deleteName">Delete by name:</label>
+                <input type="text" name="deleteName" id="deleteName">
+            </div>
+            <input type="submit" value="Delete">
+        </form>
+
+        <form action="" id="filterCountryForm">
+            <h2>Filter user by country</h2>
+            <div class="inputContainer">
+                <label for="filterCountry">Filter user by country:</label>
+                <input type="text" name="filterCountry" id="filterCountry">
+            </div>
+            <input type="submit" value="Search">
+        </form>
+
+        <form action="" id="filterAgeForm">
+            <h2>Filter user by age</h2>
+            <div>
+                <div class="radioInputContainer">
+                    <input type="radio" name="filterAge" value="all">
+                    <label for="filterAge">All</label>
+                </div>
+                <div class="radioInputContainer">
+                    <input type="radio" name="filterAge" value="young">
+                    <label for="filterAge">18-29 años</label>
+                </div>
+                <div class="radioInputContainer">
+                    <input type="radio" name="filterAge" value="adult">
+                    <label for="filterAge">30-64 años</label>
+                </div>
+                <div class="radioInputContainer">
+                    <input type="radio" name="filterAge" value="retired">
+                    <label for="filterAge">+65 años</label>
+                </div>
+            </div>
+
+            <input type="submit" value="Search">
+        </form>
+    </section>
+
+
+    <section id="userSection"></section>
+
+    <script type="module" src="./js/main.js"></script>
+</body>
+
+</html>

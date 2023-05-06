@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(52, 52, 52);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    width: 100vw;
+    min-height: 100vh;
+
+    padding: 2rem 10%;
+    background-color: rgb(255, 255, 255);
+}
+
+#formSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 1rem;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: rgb(199, 230, 255);
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.inputContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0.5rem;
+    width: fit-content;
+}
+
+#createForm > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+    row-gap: 0.5rem;
+}
+
+#filterAgeForm > div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    row-gap: 0.5rem;
+}
+
+.radioInputContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+input[type="submit"] {
+    padding: 0.25rem 0.75rem;
+    background-color: transparent;
+    border: 1px solid rgb(69, 123, 250);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#userSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.userCard {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+
+    min-width: 300px;
+    padding: 1rem;
+    background-color: rgb(73, 109, 255);
+    border-radius: 5px;
+}
+
+.userCard > img {
+    border-radius: 50%;
+    background-color: white;
+}
+
+.userCard > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.25rem;
+}
+.userCard > div > * {
+    color: white;
+}
+
+@media (max-width: 1150px) {
+    #createForm > div {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 850px) {
+    #formSection {
+        grid-template-columns: 1fr;
+    }
+}
