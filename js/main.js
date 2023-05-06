@@ -18,7 +18,7 @@ const printUsers = (userList) => {
         div.innerHTML = `<img src=${user.img ? user.img : "https://robohash.org/placeatvoluptatemsequi.png?size=50x50&set=set1"}/>
                      <div>
                         <h3>${user.first_name} ${user.last_name}</h3>
-                        <span>${user.age}</span>
+                        <span>Age: ${user.age}</span>
                         <p>${user.country}</p>
                      </div>`;
         userSection.appendChild(div);
