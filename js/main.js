@@ -1,4 +1,4 @@
-import Users from "../utils/users.js";
+import Users from "../users.js";
 import createUser from "../utils/createUser.js";
 import deleteUser from "../utils/deleteUser.js";
 import { filterUsersByAge, filterUsersByCountry } from "../utils/filterUsers.js";
