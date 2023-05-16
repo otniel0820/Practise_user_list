@@ -5,6 +5,8 @@ En este ejercicio usaremos un proyecto que integra HTML, CS y JavaScript. Todav�
 
 Este proyecto sirve también para que empieces a vislumbrar para qué sirve todo lo que hemos estudiado de JavaScript hasta ahora. Para qué sirven las funciones, y los bucles, y los objetos, etc.
 
+![](https://media.giphy.com/media/V2ojLo7PvhVug/giphy.gif)
+
 ### Instalación
 1. Clona el repositorio.
 2. Lanza el archivo `index.html` en el navegador para que puedas ver el proyecto y el resultado de tu código.
@@ -31,4 +33,4 @@ A la hora de filtrar por edad, deberás mirar el HTML para ver qué valor tiene 
 
 !Happy coding!
 
-![](https://media.giphy.com/media/V2ojLo7PvhVug/giphy.gif)
+![](https://media.giphy.com/media/3oAt2dA6LxMkRrGc0g/giphy.gif)
