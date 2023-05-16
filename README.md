@@ -31,4 +31,4 @@ A la hora de filtrar por edad, deberás mirar el HTML para ver qué valor tiene 
 
 !Happy coding!
 
-![](https://media.giphy.com/media/0lGOCxq1V8N7E1icuQ/giphy.gif)
+![](https://media.giphy.com/media/V2ojLo7PvhVug/giphy.gif)
