@@ -3,6 +3,8 @@
 # User List Practise
 En este ejercicio usaremos un proyecto que integra HTML, CS y JavaScript. Todavía no sabes cómo hacer esta integración, pero no te preocupes, ya está hecha de antemano. Tu única tarea es completar los archivos de JavaScript para que el proyecto pueda funcionar.
 
+Este proyecto sirve también para que empieces a vislumbrar para qué sirve todo lo que hemos estudiado de JavaScript hasta ahora. Para qué sirven las funciones, y los bucles, y los objetos, etc.
+
 ### Instalación
 1. Clona el repositorio.
 2. Lanza el archivo `index.html` en el navegador para que puedas ver el proyecto y el resultado de tu código.
@@ -28,4 +30,5 @@ A la hora de filtrar por edad, deberás mirar el HTML para ver qué valor tiene 
 - No hace falta que añadas una imagen a la hora de crear usuarios. Ésta se añade automáticamente.
 
 !Happy coding!
-https://media.giphy.com/media/0lGOCxq1V8N7E1icuQ/giphy.gif
+
+![](https://media.giphy.com/media/0lGOCxq1V8N7E1icuQ/giphy.gif)
